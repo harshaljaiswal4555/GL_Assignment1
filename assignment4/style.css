@@ -1,0 +1,93 @@
+body {
+    background: #f2f2;
+    justify-content: center;
+    align-items:center; 
+}
+
+.setOfCircle{
+    margin-top: 200px;
+    margin-left: 100px;
+    
+}
+/*.circle:nth-child(1),
+.circle:nth-child(2),
+.circle:nth-child(3),
+.circle:nth-child(4),
+.circle:nth-child(5),
+.circle:nth-child(6),
+.circle:nth-child(7)*/
+.circle{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    background: orange;
+    border-radius: 50%;
+}
+
+
+.circleAnimate{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    background: orange;
+    border-radius: 50%;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    animation-iteration-count: 1;
+}
+
+.circleAnimate:nth-child(1){
+    animation-delay: 0s;
+}
+
+.circleAnimate:nth-child(2){
+    animation-delay: 0s;
+}
+
+.circleAnimate:nth-child(3){
+    animation-delay: 0s;
+}
+
+.circleAnimate:nth-child(4){
+    animation-delay: 0s;
+}
+
+.circleAnimate:nth-child(5){
+    animation-delay: 0s;
+}
+
+.circleAnimate:nth-child(6){
+    animation-delay: 0s;
+}
+.circleAnimate:nth-child(7){
+    animation-delay: 0s;
+}
+
+.circleAnimatePause{
+    position: relative;
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    background: orange;
+    border-radius: 50%;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    animation-iteration-count: 1;
+    animation-play-state: paused;
+}
+@-webkit-keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    75%  {top: 50px}
+    100% {top: 100px;}
+  }
+
+@keyframes mymove {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+}

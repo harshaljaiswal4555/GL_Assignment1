@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Weather</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div class="heading">
+        <p>What location are you looking for?</p>
+        </div>
+        <div class="innerpart">
+            <textfield>
+                <input type="text" class="user" name="user" id="cityName" onkeyup="getWether()">
+                <button type="submit" class="btn" onclick="getWether()">Submit</button>
+            </textfield>
+        </div>
+
+        <div class="innpart">
+                <textfield>
+                    <p class="city" id="city">city</p>
+                    <p class="status" id="status">staus</p>
+                    <img src="" class="icon" id="icon"/>
+                    <p class="temp" id="data">temp</p>
+
+
+                    
+                </textfield>
+        </div>
+        
+        <p id="demo"></p>
+        <script src="support.js"></script>
+    </body>
+</html>

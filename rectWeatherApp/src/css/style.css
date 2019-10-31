@@ -1,0 +1,113 @@
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: auto;
+    padding-top: 45px;
+    text-align: center;
+}
+
+body{
+    background: #f2f2f2;
+}
+
+.innerpart
+{
+    background: white;
+    width:50%;
+    height:100px;
+    margin-left: 25%;
+    padding: 10px;
+}
+
+.user{
+    margin-left: 40px;
+    margin-top: 30px;
+    height: 40px;
+    width: 55%;
+    border-color: #a3adab;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 35%;
+    height: 40px;
+    background:#2ca891;
+    border-color:#2ca891;
+    font-size:15px;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+.btnBack{
+    width: 35%;
+    height: 40px;
+    margin-top: 150%;
+    background:#2ca891;
+    border-color:#2ca891;
+    font-size:15px;
+    color: white;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 40em;
+    
+    padding-top: 2px;
+}
+
+.innpart
+{
+    background: white;
+    width:30%;
+    height:50%;
+    margin-left: 35%;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.city{
+    margin-left: 40%;
+    font-size: 30px;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    
+    }
+
+.status{
+    margin-left: 40%;
+    font-size: 25px;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+.temp{
+    margin-left: 40%;
+    font-size: 25px;
+    padding: 5%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+   }
+.icon{
+    
+    padding-left: 40%;
+    margin: 0 auto;
+    width: 20%;
+    
+}

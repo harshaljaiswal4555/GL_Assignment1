@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>First assignment</title>
+   
+    <style>
+        body {
+            font-family: Arial;
+            background-color: blue;
+            height: 50%;
+            width: 50%;
+            top: 30%;
+            left: 30%;
+            padding: 20px;
+        }
+
+        * {
+            box-sizing: content-box;
+        }
+
+        form {
+            left: 50%;
+            top: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            background: white;
+
+            text-align: center;
+            width: 350px;
+            height: 400px;
+        }
+
+        .icon {
+            padding: 10px;
+            background: darkblue;
+            min-width: 25px;
+            min-height: 25px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+</html>
+
+<body>
+    <div style="background: blue; width: 193%; height: 185%">
+        <form>
+            <div class="img">
+                <img src="bg.jpg" style="height: 19%; width: 100%">
+            </div>
+            <div class="head">
+                <h1>GLP Learning Model Builder</h1>
+            </div>
+
+            <p class="message">Sign In</p>
+            <div style="padding-left: 70px">
+                <div class="input-container">
+                    <i class="fas fa-user"
+                        style="padding: 10px;  background:#f2f2f2;min-width: 20px; min-height: 20px; "></i>
+                    <input type="text" name="username" id="username" placeholder="Username" required>
+                </div>
+
+                <div class="input-container">
+                    <i class="fas fa-lock"
+                        style="padding: 10px;  background:#f2f2f2; min-width: 20px; min-height: 20px; "></i>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+
+                </div>
+            </div>
+            <button class="btn" type="button"
+                style="width: 200px; height: 30px; background-color: orange; font-weight: bold; border-radius: 15px; border-color: orange"
+                onclick="NextPage()">Sign In</button>
+
+        </form>
+    
+        
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

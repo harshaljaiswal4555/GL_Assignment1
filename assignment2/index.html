@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <title>Table
+    </title>
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+<html>
+
+<head>
+        <style>
+                table, th, td {
+                  border: 1px solid black;
+                }
+                #tab{
+                    font-family:Arial, Helvetica, sans-serif;
+                    border-collapse:collapse;
+                    width:100%;
+                }
+
+                #tab td, #tab th{
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                }
+
+                #tab tr:nth-child(even)
+                {
+                    background-color: #f2f2f2;
+                }
+
+                
+
+                #tab1{
+                    font-family:Arial, Helvetica, sans-serif;
+                    border-collapse:collapse;
+                    width:100%;
+                }
+
+                #tab1 td, #tab1 th{
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                }
+
+                #tab1 tr:nth-child(even)
+                {
+                    background-color: #f2f2f2;
+                }
+
+               
+                </style>
+   
+</head>
+
+<body>
+
+
+    <div class="table1">
+        <table class="tab" id="tab">
+            <tr>
+                <th>Sr No</th>
+                <th>Name</th>
+                <th>Start date</th>
+                <th>End date</th>
+                <th>Amount</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td><input type="text" id="SrNo" name="SrNo"></td>
+                <td><input type="text" id="Name" name="Name"></td>
+                <td><input type="date" id="StartDate" name="StartDate"></td>
+                <td><input type="date" id="EndDate" name="EndDate"></td>
+                <td><input type="text" id="Amount" name="Amount"></td>
+                <td><button onclick="savedata()">Save</button></td>
+
+            </tr>   
+
+        </table>
+    </div class="table2">
+    <br>
+    <div>
+        <table class="tab1" id="tab1">
+            <tr>
+                <th>Id</th>
+                <th>Start date</th>
+                <th>End date</th>
+                <th>Amount</th>
+            </tr>
+    </div>
+    </table>
+    <p id="par">The total amount is:</p>
+    <script src="support.js"></script>
+</body>
+
+</html>
